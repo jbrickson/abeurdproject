@@ -1,0 +1,14 @@
+{
+  "title": "watchulooking@?",
+  "description": "tinatagokotokurt",
+  "robots": {
+    "index": false
+  },
+  "customScripts": {
+    "headEnd": "<meta name=\"devB\" content=\"websitewilldestroyafter1month\">"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

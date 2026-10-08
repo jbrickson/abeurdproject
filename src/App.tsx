@@ -517,7 +517,7 @@ export default function App() {
             <section className="guest-screen">
               <div className="hero-panel">
                 <div className="hero-badge">An evening worth showing up for</div>
-                <img className="stationery-art" src="/stationery-florals.svg" alt="" aria-hidden="true" />
+                <img className="stationery-art" src={`${import.meta.env.BASE_URL}stationery-florals.svg`} alt="" aria-hidden="true" />
                 <h1>Acquaintance Party</h1>
                 <p>
                   Enter your registered USN to access your formal invitation and
@@ -599,7 +599,7 @@ export default function App() {
                     <span className="sparkle">✦</span>
                     
                   </div>
-                   <img className="stationery-art2" src="/stationery-florals.svg" alt="" aria-hidden="true" />
+                   <img className="stationery-art2" src={`${import.meta.env.BASE_URL}stationery-florals.svg`} alt="" aria-hidden="true" />
                   <h2>
                     {EVENT_DETAILS.title}
                     <small>Invitation</small>
@@ -1023,8 +1023,8 @@ export default function App() {
         <div className="print-page">
           <div className="print-card print-card-main">
             <div className="print-institution-logos" aria-label="ABE International Business College and AMA Education System">
-              <img src="/abe-international-business-college.png" alt="ABE International Business College" />
-              <img src="/ama-education-system.png" alt="AMA Education System" />
+              <img src={`${import.meta.env.BASE_URL}abe-international-business-college.png`} alt="ABE International Business College" />
+              <img src={`${import.meta.env.BASE_URL}ama-education-system.png`} alt="AMA Education System" />
             </div>
             <span className="print-medallion" aria-hidden="true">✦</span>
             <p className="print-heading">ABE URDANETA PRESENTS</p>
